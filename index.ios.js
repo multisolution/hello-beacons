@@ -22,7 +22,7 @@ export default class HelloBeacons extends React.Component {
 
   render() {
     return (
-      <View style={{ flex: 1 }}>
+      <View style={{ flex: 1, padding: 22 }}>
         <Text style={{ flex: 1 }}>
           {JSON.stringify(this.state.data)}
         </Text>
