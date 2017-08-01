@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppRegistry, DeviceEventEmitter } from 'react-native'
+import { AppRegistry, DeviceEventEmitter, View, Text } from 'react-native'
 import Beacons from 'react-native-beacons-manager'
 
 export default class HelloBeacons extends React.Component {
