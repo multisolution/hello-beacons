@@ -3,6 +3,10 @@ import { AppRegistry, DeviceEventEmitter, View, Text } from 'react-native'
 import Beacons from 'react-native-beacons-manager'
 
 export default class HelloBeacons extends React.Component {
+  state = {
+    data: {},
+  }
+
   componentDidMount() {
     const region = {
       identifier: 'Estimotes'
